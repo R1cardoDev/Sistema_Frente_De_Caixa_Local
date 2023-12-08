@@ -1,0 +1,24 @@
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\Sistema Loja.exe.config
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\Sistema Loja.exe
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\Sistema Loja.pdb
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\Sistema Loja.xml
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\pt-BR\Sistema Loja.resources.dll
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.fminiciar.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.Resources.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.fminiciar.pt-BR.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.vbproj.GenerateResource.Cache
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\pt-BR\Sistema Loja.resources.dll
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.exe
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.xml
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.pdb
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormCaixa.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormEstoque.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormFornecedor.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormProduto.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\Loja Microsoft Access Banco de Dados.accdb
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormCaixaPagamento.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\Sistema Loja.exe.manifest
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\Sistema Loja.application
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.exe.manifest
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.application
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.vbprojResolveAssemblyReference.cache

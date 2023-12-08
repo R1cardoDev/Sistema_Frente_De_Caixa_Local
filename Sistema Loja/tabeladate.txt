@@ -1,0 +1,13 @@
+CREATE TABLE [dbo].[Table]
+(
+	[Codigo Barra] INT NOT NULL PRIMARY KEY, 
+    [Nome Produto] NCHAR(20) NULL, 
+    [Descrição] TEXT NULL, 
+    [Marca] TEXT NULL, 
+    [Valor Produto] FLOAT NULL, 
+    [Quantidade] NUMERIC NULL, 
+    [Data Emtrada] DATE NULL, 
+    [Quantidade vendido] NUMERIC NULL, 
+    [Quantidade Minima] NUMERIC NULL, 
+    [Imagem Produto] IMAGE NULL
+)

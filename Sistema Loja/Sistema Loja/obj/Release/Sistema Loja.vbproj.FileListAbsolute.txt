@@ -1,0 +1,16 @@
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Release\Sistema Loja.exe.config
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Release\Sistema Loja.exe
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Release\Sistema Loja.pdb
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Release\Sistema Loja.xml
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Release\pt-BR\Sistema Loja.resources.dll
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema_Loja.Fmcaixa.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema_Loja.Fmestoque.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema_Loja.fminiciar.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema_Loja.Resources.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema_Loja.fminiciar.pt-BR.resources
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema Loja.vbproj.GenerateResource.Cache
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\pt-BR\Sistema Loja.resources.dll
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema Loja.exe
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema Loja.xml
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema Loja.pdb
+F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Release\Sistema_Loja.Formproduto.resources
