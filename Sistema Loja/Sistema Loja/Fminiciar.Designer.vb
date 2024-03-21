@@ -94,6 +94,7 @@ Partial Class fminiciar
         'MenuStripiniciar
         '
         resources.ApplyResources(Me.MenuStripiniciar, "MenuStripiniciar")
+        Me.MenuStripiniciar.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStripiniciar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EstoqueToolStripMenuItem, Me.CaixaToolStripMenuItem, Me.SairToolStripMenuItem, Me.UtilitariosToolStripMenuItem})
         Me.MenuStripiniciar.Name = "MenuStripiniciar"
         '
@@ -135,6 +136,7 @@ Partial Class fminiciar
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Toohora, Me.Toodata, Me.Toologado, Me.ToolStripProgressBar1, Me.statussystema})
         resources.ApplyResources(Me.StatusStrip1, "StatusStrip1")
         Me.StatusStrip1.Name = "StatusStrip1"

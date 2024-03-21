@@ -56,9 +56,10 @@ Partial Class FormCaixa
         Label4.AutoSize = True
         Label4.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Label4.Location = New System.Drawing.Point(286, 10)
+        Label4.Location = New System.Drawing.Point(381, 12)
+        Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New System.Drawing.Size(572, 41)
+        Label4.Size = New System.Drawing.Size(711, 51)
         Label4.TabIndex = 92
         Label4.Text = "software e services"
         '
@@ -83,28 +84,31 @@ Partial Class FormCaixa
         Me.Panel1.Controls.Add(Me.GroupBox8)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1358, 740)
+        Me.Panel1.Size = New System.Drawing.Size(1811, 911)
         Me.Panel1.TabIndex = 0
         '
         'ListBoxCupon
         '
         Me.ListBoxCupon.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBoxCupon.FormattingEnabled = True
-        Me.ListBoxCupon.ItemHeight = 24
-        Me.ListBoxCupon.Location = New System.Drawing.Point(12, 93)
+        Me.ListBoxCupon.ItemHeight = 29
+        Me.ListBoxCupon.Location = New System.Drawing.Point(16, 114)
+        Me.ListBoxCupon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListBoxCupon.Name = "ListBoxCupon"
         Me.ListBoxCupon.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ListBoxCupon.Size = New System.Drawing.Size(551, 508)
+        Me.ListBoxCupon.Size = New System.Drawing.Size(733, 613)
         Me.ListBoxCupon.TabIndex = 99
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Engravers MT", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(628, 634)
+        Me.Label5.Location = New System.Drawing.Point(837, 780)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(261, 22)
+        Me.Label5.Size = New System.Drawing.Size(325, 28)
         Me.Label5.TabIndex = 94
         Me.Label5.Text = "codigo de barra"
         '
@@ -112,18 +116,20 @@ Partial Class FormCaixa
         '
         Me.TextBoxCod_Barra.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.TextBoxCod_Barra.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxCod_Barra.Location = New System.Drawing.Point(632, 654)
+        Me.TextBoxCod_Barra.Location = New System.Drawing.Point(843, 805)
+        Me.TextBoxCod_Barra.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBoxCod_Barra.Name = "TextBoxCod_Barra"
-        Me.TextBoxCod_Barra.Size = New System.Drawing.Size(695, 48)
+        Me.TextBoxCod_Barra.Size = New System.Drawing.Size(925, 58)
         Me.TextBoxCod_Barra.TabIndex = 1
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Engravers MT", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(1007, 521)
+        Me.Label7.Location = New System.Drawing.Point(1343, 641)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(100, 22)
+        Me.Label7.Size = New System.Drawing.Size(123, 28)
         Me.Label7.TabIndex = 98
         Me.Label7.Text = "Total"
         '
@@ -131,19 +137,21 @@ Partial Class FormCaixa
         '
         Me.TextBoxTotal.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.TextBoxTotal.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxTotal.Location = New System.Drawing.Point(1005, 541)
+        Me.TextBoxTotal.Location = New System.Drawing.Point(1340, 666)
+        Me.TextBoxTotal.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBoxTotal.Name = "TextBoxTotal"
         Me.TextBoxTotal.ReadOnly = True
-        Me.TextBoxTotal.Size = New System.Drawing.Size(324, 48)
+        Me.TextBoxTotal.Size = New System.Drawing.Size(431, 58)
         Me.TextBoxTotal.TabIndex = 97
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Engravers MT", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(637, 521)
+        Me.Label6.Location = New System.Drawing.Point(849, 641)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(332, 22)
+        Me.Label6.Size = New System.Drawing.Size(413, 28)
         Me.Label6.TabIndex = 96
         Me.Label6.Text = "quantidade de imtem"
         '
@@ -151,18 +159,20 @@ Partial Class FormCaixa
         '
         Me.TextBoxQuatidade_intem.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.TextBoxQuatidade_intem.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxQuatidade_intem.Location = New System.Drawing.Point(632, 541)
+        Me.TextBoxQuatidade_intem.Location = New System.Drawing.Point(843, 666)
+        Me.TextBoxQuatidade_intem.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBoxQuatidade_intem.Name = "TextBoxQuatidade_intem"
-        Me.TextBoxQuatidade_intem.Size = New System.Drawing.Size(356, 48)
+        Me.TextBoxQuatidade_intem.Size = New System.Drawing.Size(473, 58)
         Me.TextBoxQuatidade_intem.TabIndex = 95
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Engravers MT", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(655, 370)
+        Me.Label3.Location = New System.Drawing.Point(873, 455)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(102, 22)
+        Me.Label3.Size = New System.Drawing.Size(126, 28)
         Me.Label3.TabIndex = 91
         Me.Label3.Text = "valor"
         '
@@ -170,19 +180,21 @@ Partial Class FormCaixa
         '
         Me.TextBoxValor.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.TextBoxValor.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxValor.Location = New System.Drawing.Point(648, 390)
+        Me.TextBoxValor.Location = New System.Drawing.Point(864, 480)
+        Me.TextBoxValor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBoxValor.Name = "TextBoxValor"
         Me.TextBoxValor.ReadOnly = True
-        Me.TextBoxValor.Size = New System.Drawing.Size(681, 48)
+        Me.TextBoxValor.Size = New System.Drawing.Size(907, 58)
         Me.TextBoxValor.TabIndex = 90
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Engravers MT", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(655, 236)
+        Me.Label2.Location = New System.Drawing.Point(873, 290)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(165, 22)
+        Me.Label2.Size = New System.Drawing.Size(205, 28)
         Me.Label2.TabIndex = 89
         Me.Label2.Text = "descrição"
         '
@@ -190,20 +202,22 @@ Partial Class FormCaixa
         '
         Me.TextBoxDescrição.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.TextBoxDescrição.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxDescrição.Location = New System.Drawing.Point(648, 256)
+        Me.TextBoxDescrição.Location = New System.Drawing.Point(864, 315)
+        Me.TextBoxDescrição.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBoxDescrição.Name = "TextBoxDescrição"
         Me.TextBoxDescrição.ReadOnly = True
         Me.TextBoxDescrição.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.TextBoxDescrição.Size = New System.Drawing.Size(681, 48)
+        Me.TextBoxDescrição.Size = New System.Drawing.Size(907, 58)
         Me.TextBoxDescrição.TabIndex = 88
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Engravers MT", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(655, 93)
+        Me.Label1.Location = New System.Drawing.Point(873, 114)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(88, 22)
+        Me.Label1.Size = New System.Drawing.Size(109, 28)
         Me.Label1.TabIndex = 87
         Me.Label1.Text = "nome"
         '
@@ -211,10 +225,11 @@ Partial Class FormCaixa
         '
         Me.TextBoxNome.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.TextBoxNome.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxNome.Location = New System.Drawing.Point(648, 113)
+        Me.TextBoxNome.Location = New System.Drawing.Point(864, 139)
+        Me.TextBoxNome.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBoxNome.Name = "TextBoxNome"
         Me.TextBoxNome.ReadOnly = True
-        Me.TextBoxNome.Size = New System.Drawing.Size(681, 48)
+        Me.TextBoxNome.Size = New System.Drawing.Size(907, 58)
         Me.TextBoxNome.TabIndex = 86
         '
         'GroupBox8
@@ -228,9 +243,11 @@ Partial Class FormCaixa
         Me.GroupBox8.Controls.Add(Me.Label11)
         Me.GroupBox8.Font = New System.Drawing.Font("Engravers MT", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox8.ForeColor = System.Drawing.Color.Black
-        Me.GroupBox8.Location = New System.Drawing.Point(12, 616)
+        Me.GroupBox8.Location = New System.Drawing.Point(16, 758)
+        Me.GroupBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(551, 86)
+        Me.GroupBox8.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox8.Size = New System.Drawing.Size(735, 106)
         Me.GroupBox8.TabIndex = 85
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Fuçoes"
@@ -240,9 +257,10 @@ Partial Class FormCaixa
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(382, 61)
+        Me.Label8.Location = New System.Drawing.Point(509, 75)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(90, 12)
+        Me.Label8.Size = New System.Drawing.Size(111, 16)
         Me.Label8.TabIndex = 86
         Me.Label8.Text = "[Esc] Sair"
         '
@@ -251,9 +269,10 @@ Partial Class FormCaixa
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(382, 18)
+        Me.Label14.Location = New System.Drawing.Point(509, 22)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(85, 12)
+        Me.Label14.Size = New System.Drawing.Size(104, 16)
         Me.Label14.TabIndex = 84
         Me.Label14.Text = "[F4] Novo"
         '
@@ -262,9 +281,10 @@ Partial Class FormCaixa
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(382, 38)
+        Me.Label13.Location = New System.Drawing.Point(509, 47)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(93, 12)
+        Me.Label13.Size = New System.Drawing.Size(115, 16)
         Me.Label13.TabIndex = 83
         Me.Label13.Text = "[F5] Ajuda"
         '
@@ -273,9 +293,10 @@ Partial Class FormCaixa
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(10, 18)
+        Me.Label9.Location = New System.Drawing.Point(13, 22)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(230, 12)
+        Me.Label9.Size = New System.Drawing.Size(283, 16)
         Me.Label9.TabIndex = 79
         Me.Label9.Text = "[F1] Alterar Quantidade"
         '
@@ -284,9 +305,10 @@ Partial Class FormCaixa
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(10, 61)
+        Me.Label12.Location = New System.Drawing.Point(13, 75)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(124, 12)
+        Me.Label12.Size = New System.Drawing.Size(156, 16)
         Me.Label12.TabIndex = 82
         Me.Label12.Text = "[F3] Cancelar"
         '
@@ -295,9 +317,10 @@ Partial Class FormCaixa
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(10, 38)
+        Me.Label11.Location = New System.Drawing.Point(13, 47)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(128, 12)
+        Me.Label11.Size = New System.Drawing.Size(159, 16)
         Me.Label11.TabIndex = 81
         Me.Label11.Text = "[F2] Finalizar"
         '
@@ -309,12 +332,13 @@ Partial Class FormCaixa
         'FormCaixa
         '
         Me.AllowDrop = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1358, 740)
+        Me.ClientSize = New System.Drawing.Size(1811, 911)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FormCaixa"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormCaixa"

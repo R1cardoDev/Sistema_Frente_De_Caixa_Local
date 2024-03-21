@@ -49,9 +49,11 @@ Partial Class FormCaixaPagamento
         Me.GroupBox1.Controls.Add(Me.Button2)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(16, 15)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(564, 247)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(752, 304)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Forma de Pagamento"
@@ -61,16 +63,18 @@ Partial Class FormCaixaPagamento
         Me.Label1.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Label1.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(285, 116)
+        Me.Label1.Location = New System.Drawing.Point(380, 143)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(267, 41)
+        Me.Label1.Size = New System.Drawing.Size(356, 51)
         Me.Label1.TabIndex = 9
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(455, 193)
+        Me.Button5.Location = New System.Drawing.Point(607, 238)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(109, 41)
+        Me.Button5.Size = New System.Drawing.Size(145, 50)
         Me.Button5.TabIndex = 8
         Me.Button5.Text = "&ENTER"
         Me.Button5.UseVisualStyleBackColor = True
@@ -79,9 +83,10 @@ Partial Class FormCaixaPagamento
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Engravers MT", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(1, 116)
+        Me.Label6.Location = New System.Drawing.Point(1, 143)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(194, 41)
+        Me.Label6.Size = New System.Drawing.Size(241, 51)
         Me.Label6.TabIndex = 7
         Me.Label6.Text = "Total:"
         '
@@ -90,17 +95,19 @@ Partial Class FormCaixaPagamento
         Me.ComboBox1.Font = New System.Drawing.Font("Engravers MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"})
-        Me.ComboBox1.Location = New System.Drawing.Point(359, 193)
+        Me.ComboBox1.Location = New System.Drawing.Point(479, 238)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(92, 39)
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 48)
         Me.ComboBox1.TabIndex = 1
         Me.ComboBox1.Visible = False
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(413, 34)
+        Me.Button4.Location = New System.Drawing.Point(551, 42)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(140, 67)
+        Me.Button4.Size = New System.Drawing.Size(187, 82)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "c&ancelar"
         Me.Button4.UseVisualStyleBackColor = True
@@ -111,9 +118,11 @@ Partial Class FormCaixaPagamento
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Font = New System.Drawing.Font("Engravers MT", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(9, 186)
+        Me.GroupBox2.Location = New System.Drawing.Point(12, 229)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(316, 46)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Size = New System.Drawing.Size(421, 57)
         Me.GroupBox2.TabIndex = 4
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Funçoes"
@@ -121,35 +130,39 @@ Partial Class FormCaixaPagamento
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(146, 30)
+        Me.Label5.Location = New System.Drawing.Point(195, 37)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(124, 12)
+        Me.Label5.Size = New System.Drawing.Size(156, 16)
         Me.Label5.TabIndex = 3
         Me.Label5.Text = "[f3] cancelar"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 30)
+        Me.Label3.Location = New System.Drawing.Point(8, 37)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(122, 12)
+        Me.Label3.Size = New System.Drawing.Size(151, 16)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "[f2] dinheiro"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 14)
+        Me.Label2.Location = New System.Drawing.Point(8, 17)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(105, 12)
+        Me.Label2.Size = New System.Drawing.Size(129, 16)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "[f1] Cartão"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(219, 34)
+        Me.Button2.Location = New System.Drawing.Point(292, 42)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(135, 67)
+        Me.Button2.Size = New System.Drawing.Size(180, 82)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "&Dinheiro"
         Me.Button2.UseVisualStyleBackColor = True
@@ -157,21 +170,23 @@ Partial Class FormCaixaPagamento
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button1.Location = New System.Drawing.Point(8, 34)
+        Me.Button1.Location = New System.Drawing.Point(11, 42)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(167, 67)
+        Me.Button1.Size = New System.Drawing.Size(223, 82)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "&Cartão"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'FormCaixaPagamento
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(594, 270)
+        Me.ClientSize = New System.Drawing.Size(792, 332)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FormCaixaPagamento"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormCaixaPagamento"

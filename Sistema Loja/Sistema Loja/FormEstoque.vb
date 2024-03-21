@@ -38,10 +38,10 @@ Public Class FormEstoque
         End While
         myConnction.Close()
     End Sub
-    '||INICIO DA BUSCA PELO CODIGO DO ESTOQUE
+    'INICIO DA BUSCA PELO CODIGO DO ESTOQUE
     Private Sub Cod_EstoqueTextBox_TextChanged(sender As Object, e As EventArgs) Handles Cod_EstoqueTextBox.TextChanged
         If CheckBox1.Checked = False Then
-            If Cod_EstoqueTextBox.Text <> "" Then Carregar_Busca_Cod_Estoque_P1() Else Carregar_Tabela_ListView() '||Retornando Valor NO listiView
+            If Cod_EstoqueTextBox.Text <> "" Then Carregar_Busca_Cod_Estoque_P1() Else Carregar_Tabela_ListView()
         Else
             If Cod_EstoqueTextBox.Text <> "" Then Carregar_Busca_Cod_Produto_P1() Else Carregar_Tabela_ListView()
         End If
@@ -53,7 +53,7 @@ Public Class FormEstoque
         Dim mycommand As New OleDbCommand("SELECT * FROM Consulta_Para_Venda WHERE Cod_Estoque like @Cod_Estoque", myconnction)
         mycommand.Parameters.AddWithValue("@Cod_Estoque", Cod_EstoqueTextBox.Text)
         Dim myreader As OleDbDataReader = mycommand.ExecuteReader
-        While myreader.Read '|||carregando dados nos textbox
+        While myreader.Read 'carregando dados nos textbox
             QuantidadeTextBox.Text = myreader("Quantidade")
             NomeTextBox.Text = myreader("Nome")
             DescriçãoTextBox.Text = myreader("Descrição")
@@ -64,7 +64,7 @@ Public Class FormEstoque
     End Sub
     Sub Carregar_Busca_Cod_Estoque_P2()
         Dim myconnction As New OleDbConnection(myConnstring)
-        myconnction.Open()              '/selecionando tabela produto o valor cod_produto
+        myconnction.Open()              'selecionando tabela produto o valor cod_produto
         Dim mycommand As New OleDbCommand("SELECT * FROM ESTOQUE WHERE Cod_Estoque like @Cod_Estoque", myconnction)
         mycommand.Parameters.AddWithValue("@Cod_Estoque", Cod_EstoqueTextBox.Text)
         Dim myreader As OleDbDataReader = mycommand.ExecuteReader
@@ -78,14 +78,14 @@ Public Class FormEstoque
             newlistViewItem.Text = myreader.GetInt32(0)
             newlistViewItem.SubItems.Add(myreader.GetInt32(1))
             newlistViewItem.SubItems.Add(myreader.GetDateTime(2))
-            newlistViewItem.SubItems.Add(myreader.GetDateTime(3)) 'Data de saida--
+            newlistViewItem.SubItems.Add(myreader.GetDateTime(3))
             newlistViewItem.SubItems.Add(myreader.GetInt32(4))
             ListView5.Items.Add(newlistViewItem)
         End While
         myconnction.Close()
     End Sub
-    '||FIM DA BUSCA PELO CODIGO DO ESTOQUE
-    '||INICIO DA BUSCA PELO CODIGO PRODUTO
+    'FIM DA BUSCA PELO CODIGO DO ESTOQUE
+    'INICIO DA BUSCA PELO CODIGO PRODUTO
     Sub Carregar_Busca_Cod_Produto_P1()
         Dim myconnction As New OleDbConnection(myConnstring)
         myconnction.Open()              '/selecionando tabela produto o valor cod_produto
@@ -99,7 +99,6 @@ Public Class FormEstoque
             Data_SaidaTextBox.Text = myreader("Data_Saida")
             QuantidadeTextBox.Text = myreader("Quantidade")
             Cod_Incerir_Estoque = Cod_EstoqueTextBox.Text
-            'Linpar ListView
             ListView5.Items.Clear()
             newlistViewItem.Text = myreader.GetInt32(0)
             newlistViewItem.SubItems.Add(myreader.GetInt32(1))
@@ -118,7 +117,7 @@ Public Class FormEstoque
         Dim mycommand As New OleDbCommand("SELECT * FROM PRODUTOS WHERE Cod_Produto like @Cod_Produto", myconnction)
         mycommand.Parameters.AddWithValue("@Cod_Produto", Cod_EstoqueTextBox.Text)
         Dim myreader As OleDbDataReader = mycommand.ExecuteReader
-        While myreader.Read '|||carregando dados nos textbox
+        While myreader.Read 'carregando dados nos textbox
             NomeTextBox.Text = myreader("Nome")
             DescriçãoTextBox.Text = myreader("Descrição")
             Preço_VendaTextBox.Text = myreader("Preço_Venda")
@@ -126,7 +125,7 @@ Public Class FormEstoque
         myconnction.Close()
         If Data_EntradaTextBox.Text = "" And Data_SaidaTextBox.Text = "" And QuantidadeTextBox.Text = "" Then Button1.Enabled = True
     End Sub
-    '||FIM DA BUSCA PELO CODIGO PRODUTO
+    'FIM DA BUSCA PELO CODIGO PRODUTO
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         If CheckBox1.Checked = True Then
             CheckBox1.Text = "Buscar Por" & " Codigo Estoque"
@@ -140,7 +139,7 @@ Public Class FormEstoque
             Cod_EstoqueTextBox.Focus()
         End If
     End Sub
-    '||INCERIR ITEM NO ESTOQUE
+    'INCERIR ITEM NO ESTOQUE
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If QuantidadeTextBox.Text <> "" Then
             Dim myconnction As New OleDbConnection(myConnstring)

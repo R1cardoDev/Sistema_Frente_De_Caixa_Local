@@ -10,13 +10,13 @@
             Cartaoo = True
             Button2.Enabled = True
         End If
-        If Button1.Text = "&Credito" Then '----se a escolha for credito o botton vira Parcela ----
+        If Button1.Text = "&Credito" Then 'se a escolha for credito o botton vira Parcela
             Button1.BackColor = Color.Gold
             Button1.Text = "&Parcelado"
             Button2.Enabled = False
             Button1.Focus()
         End If
-        If Button1.Text = "&Cartão" Then '----se a escolha for cartão o botton vira credito ----
+        If Button1.Text = "&Cartão" Then 'se a escolha for cartão o botton vira credito
             Button1.BackColor = Color.Lavender
             Button1.Text = "&Credito"
             Button2.Text = "&Debito"
@@ -70,14 +70,15 @@
         FormCaixaPagamento_KeyUp(sender, e)
     End Sub
     Sub Finalizar_Form()
-        ' FormCaixa.Valor_Total_Final_ListView = FormCaixa.Valor_Total_Final
         Me.Hide()
         Varios_Pagamentos_Loop()
         Valor_Entrada = (0)
         Restante = False
-FormCaixa.Valor_Total_Final = (0)
+        FormCaixa.Valor_Total_Final = (0)
 
     End Sub
+
+
     Sub Varios_Pagamentos_Loop()
         Dinheiroo = False
         Dinheiroo = False
@@ -141,7 +142,7 @@ FormCaixa.Valor_Total_Final = (0)
                 Finalizar_Form()
 
         End Select
-        'inpressora aqui
+        'impressora aqui
     End Sub
 
 
@@ -152,7 +153,7 @@ FormCaixa.Valor_Total_Final = (0)
             Label1.Focus()
             Dinheiroo = True
         Else
-            '||Pagamento
+            'pagamento
             Label6.Text = "&ENTRADA"
             Label1.Text = ""
             Label1.Focus()

@@ -4,15 +4,15 @@ Public Class FormProduto
     Private Sub ButtonSair_Click(sender As Object, e As EventArgs) Handles ButtonSair.Click
         Me.ResetText()
         Cod_ProdutoTextBox.Enabled = True
-        Me.Hide() '|||finalizado Formulario
+        Me.Hide() 'finalizado formulario
     End Sub
-    Sub carregar_tabela_produto_textbox()
+    Sub Carregar_tabela_produto_textbox()
         Dim myconnction As New OleDbConnection(myConnstring)
-        myconnction.Open()              '/selecionando tabela produto o valor cod_produto
+        myconnction.Open()              'selecionando tabela produto o valor cod_produto
         Dim mycommand As New OleDbCommand("SELECT * FROM Produtos WHERE Cod_Produto like @Cod_Produto", myconnction)
         mycommand.Parameters.AddWithValue("@Cod_Produto", Cod_ProdutoTextBox.Text)
         Dim myreader As OleDbDataReader = mycommand.ExecuteReader
-        '|||carregando dados nos textbox
+        'carregando dados nos textbox
         While myreader.Read
             Cod_FornecedorTextBox.Text = myreader("Cod_Fornecedor")
             NomeTextBox.Text = myreader("Nome")
@@ -27,7 +27,7 @@ Public Class FormProduto
         Dim myConnction As New OleDbConnection(myConnstring)
         myConnction.Open()
         Dim myCommand As New OleDbCommand("SELECT * FROM PRODUTOS WHERE Cod_Produto LIKE @Cod_Produto", myConnction)
-        myCommand.Parameters.AddWithValue("@Cod_Produto", Cod_ProdutoTextBox.Text) 'Para Buscar Pela Primeira Letra Adicionar no fim &%
+        myCommand.Parameters.AddWithValue("@Cod_Produto", Cod_ProdutoTextBox.Text)
         Dim myReader As OleDbDataReader = myCommand.ExecuteReader
         While myReader.Read
             Dim newlistViewItem As New ListViewItem
@@ -44,11 +44,11 @@ Public Class FormProduto
     End Sub
     Sub Carregar_Tabela_Produto_TextBox_Fornecedor()
         Dim myconnction As New OleDbConnection(myConnstring)
-        myconnction.Open()              '/selecionando tabela produto o valor cod_produto
+        myconnction.Open()              'selecionando tabela produto o valor cod_produto
         Dim mycommand As New OleDbCommand("SELECT * FROM FORNECEDORES WHERE Cod_Fornecedor like @Cod_Fornecedor", myconnction)
         mycommand.Parameters.AddWithValue("@Cod_Fornecedor", Cod_FornecedorTextBox.Text)
         Dim myreader As OleDbDataReader = mycommand.ExecuteReader
-        '|||carregando dados nos textbox
+        'carregando dados nos textbox
         While myreader.Read
             Cod_FornecedorTextBox1.Text = myreader("Cod_Fornecedor")
             NomeTextBox1.Text = myreader("Nome")
@@ -62,15 +62,12 @@ Public Class FormProduto
     End Sub
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If Cod_ProdutoTextBox.Text <> "" Then
-            'selecional o imtem a ser deletado
-            'From Data
             Dim myConnction As New OleDbConnection(myConnstring)
             myConnction.Open()
             Dim myCommand As New OleDbCommand("DELETE FROM PRODUTOS WHERE Cod_Produto = @Cod_Produto", myConnction)
             myCommand.Parameters.AddWithValue("@Cod_Produto", Cod_ProdutoTextBox.Text)
             myCommand.ExecuteNonQuery()
             myConnction.Close()
-            'From Remove View
             MessageBox.Show("Intem Excluido Com Sucesso")
             Carregar_Dados_no_Inicio()
         Else
@@ -78,7 +75,7 @@ Public Class FormProduto
             Cod_ProdutoTextBox.Focus()
         End If
     End Sub
-    Sub Incerir_Dados_Na_Tabela_Produto() '|||Incerido dados na tabela Produto
+    Sub Incerir_Dados_Na_Tabela_Produto() 'Incerido dados na tabela Produto
         Dim myConnction As New OleDbConnection(myConnstring)
         myConnction.Open()
         Dim myCommand As New OleDbCommand("INSERT INTO PRODUTOS (Cod_Fornecedor, Nome, Descrição, Preço_Venda) VALUES (@Cod_Fornecedor, @Nome, @Descrição, @Preço_Venda )", myConnction)
@@ -93,7 +90,7 @@ Public Class FormProduto
         Cod_ProdutoTextBox.Enabled = True
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If Cod_ProdutoTextBox.Enabled = True Then '||Verificando A posibilidade de Incerir Dados Na Tabela
+        If Cod_ProdutoTextBox.Enabled = True Then 'verificando a posibilidade de Inserir dados na tabela
             Cod_ProdutoTextBox.Enabled = False
             ListView2.Enabled = False
             Button2.Enabled = False
@@ -130,7 +127,7 @@ Public Class FormProduto
         myConnction.Open()
         Dim myCommand As New OleDbCommand("SELECT * FROM PRODUTOS ", myConnction)
         Dim myReader As OleDbDataReader = myCommand.ExecuteReader
-        'Limpar Intem Listvwiew
+        'limpar Item Listvwiew
         ListView2.Items.Clear()
         While myReader.Read
             Dim newlistViewItem As New ListViewItem
@@ -141,7 +138,7 @@ Public Class FormProduto
             newlistViewItem.SubItems.Add(myReader.GetDecimal(4))
             ListView2.Items.Add(newlistViewItem)
         End While
-        '||||Linpando Todos Os Campos Do Formulario
+        'linpando todos os campos do formulario
         myConnction.Close()
         Cod_FornecedorTextBox.Clear()
         NomeTextBox.Clear()
@@ -157,16 +154,16 @@ Public Class FormProduto
         Cod_ProdutoTextBox.Focus()
     End Sub
     Public Sub FormProduto_Load()
-        Carregar_Dados_no_Inicio() '||Carregando Dados Inicia Do Formulario
+        Carregar_Dados_no_Inicio() 'carregando dados inicia do formulario
     End Sub
     Private Sub Cod_FornecedorTextBox_TextChanged(sender As Object, e As EventArgs) Handles Cod_FornecedorTextBox.TextChanged
         If Cod_ProdutoTextBox.Enabled = False Then
             Dim myconnction As New OleDbConnection(myConnstring)
-            myconnction.Open()              '/selecionando tabela produto o valor cod_produto
+            myconnction.Open()              'selecionando tabela produto o valor cod_produto
             Dim mycommand As New OleDbCommand("SELECT * FROM FORNECEDORES WHERE Cod_Fornecedor like @Cod_Fornecedor", myconnction)
             mycommand.Parameters.AddWithValue("@Cod_Fornecedor", Cod_FornecedorTextBox.Text)
             Dim myreader As OleDbDataReader = mycommand.ExecuteReader
-            '|||carregando dados nos textbox
+            'carregando dados nos textbox
             While myreader.Read
                 Cod_FornecedorTextBox1.Text = myreader("Cod_Fornecedor")
                 NomeTextBox1.Text = myreader("Nome")
@@ -176,5 +173,6 @@ Public Class FormProduto
             myconnction.Close()
         End If
     End Sub
+
 
 End Class

@@ -51,9 +51,10 @@ Partial Class FormFornecedor
         '
         Cod_FornecedorLabel.AutoSize = True
         Cod_FornecedorLabel.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Cod_FornecedorLabel.Location = New System.Drawing.Point(10, 85)
+        Cod_FornecedorLabel.Location = New System.Drawing.Point(13, 105)
+        Cod_FornecedorLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Cod_FornecedorLabel.Name = "Cod_FornecedorLabel"
-        Cod_FornecedorLabel.Size = New System.Drawing.Size(227, 19)
+        Cod_FornecedorLabel.Size = New System.Drawing.Size(278, 24)
         Cod_FornecedorLabel.TabIndex = 1
         Cod_FornecedorLabel.Text = "Cod Fornecedor:"
         '
@@ -61,9 +62,10 @@ Partial Class FormFornecedor
         '
         NomeLabel.AutoSize = True
         NomeLabel.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        NomeLabel.Location = New System.Drawing.Point(10, 159)
+        NomeLabel.Location = New System.Drawing.Point(13, 196)
+        NomeLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         NomeLabel.Name = "NomeLabel"
-        NomeLabel.Size = New System.Drawing.Size(82, 19)
+        NomeLabel.Size = New System.Drawing.Size(100, 24)
         NomeLabel.TabIndex = 3
         NomeLabel.Text = "Nome:"
         '
@@ -71,9 +73,10 @@ Partial Class FormFornecedor
         '
         EmailLabel.AutoSize = True
         EmailLabel.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        EmailLabel.Location = New System.Drawing.Point(10, 278)
+        EmailLabel.Location = New System.Drawing.Point(13, 342)
+        EmailLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         EmailLabel.Name = "EmailLabel"
-        EmailLabel.Size = New System.Drawing.Size(87, 19)
+        EmailLabel.Size = New System.Drawing.Size(107, 24)
         EmailLabel.TabIndex = 5
         EmailLabel.Text = "Email:"
         '
@@ -81,9 +84,10 @@ Partial Class FormFornecedor
         '
         TelefoneLabel.AutoSize = True
         TelefoneLabel.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        TelefoneLabel.Location = New System.Drawing.Point(10, 352)
+        TelefoneLabel.Location = New System.Drawing.Point(13, 433)
+        TelefoneLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         TelefoneLabel.Name = "TelefoneLabel"
-        TelefoneLabel.Size = New System.Drawing.Size(134, 19)
+        TelefoneLabel.Size = New System.Drawing.Size(164, 24)
         TelefoneLabel.TabIndex = 7
         TelefoneLabel.Text = "Telefone:"
         '
@@ -91,27 +95,30 @@ Partial Class FormFornecedor
         '
         Label1.AutoSize = True
         Label1.Font = New System.Drawing.Font("Engravers MT", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Label1.Location = New System.Drawing.Point(31, 9)
+        Label1.Location = New System.Drawing.Point(41, 11)
+        Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New System.Drawing.Size(374, 37)
+        Label1.Size = New System.Drawing.Size(464, 47)
         Label1.TabIndex = 95
         Label1.Text = "Fornecedores"
         '
         'NomeTextBox
         '
         Me.NomeTextBox.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NomeTextBox.Location = New System.Drawing.Point(98, 159)
+        Me.NomeTextBox.Location = New System.Drawing.Point(131, 196)
+        Me.NomeTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.NomeTextBox.Multiline = True
         Me.NomeTextBox.Name = "NomeTextBox"
-        Me.NomeTextBox.Size = New System.Drawing.Size(376, 65)
+        Me.NomeTextBox.Size = New System.Drawing.Size(500, 79)
         Me.NomeTextBox.TabIndex = 2
         '
         'ButtonSair
         '
         Me.ButtonSair.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonSair.Location = New System.Drawing.Point(222, 456)
+        Me.ButtonSair.Location = New System.Drawing.Point(296, 561)
+        Me.ButtonSair.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ButtonSair.Name = "ButtonSair"
-        Me.ButtonSair.Size = New System.Drawing.Size(252, 28)
+        Me.ButtonSair.Size = New System.Drawing.Size(336, 34)
         Me.ButtonSair.TabIndex = 8
         Me.ButtonSair.Text = "Sair"
         Me.ButtonSair.UseVisualStyleBackColor = True
@@ -119,9 +126,10 @@ Partial Class FormFornecedor
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(5, 422)
+        Me.Button1.Location = New System.Drawing.Point(7, 519)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(211, 28)
+        Me.Button1.Size = New System.Drawing.Size(281, 34)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Incerir / Novo"
         Me.Button1.UseVisualStyleBackColor = True
@@ -129,9 +137,10 @@ Partial Class FormFornecedor
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(222, 422)
+        Me.Button2.Location = New System.Drawing.Point(296, 519)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(252, 28)
+        Me.Button2.Size = New System.Drawing.Size(336, 34)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Editar"
         Me.Button2.UseVisualStyleBackColor = True
@@ -139,9 +148,10 @@ Partial Class FormFornecedor
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(5, 456)
+        Me.Button3.Location = New System.Drawing.Point(7, 561)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(211, 28)
+        Me.Button3.Size = New System.Drawing.Size(281, 34)
         Me.Button3.TabIndex = 7
         Me.Button3.Text = "Excruir"
         Me.Button3.UseVisualStyleBackColor = True
@@ -159,11 +169,13 @@ Partial Class FormFornecedor
         Me.ListView3.Font = New System.Drawing.Font("Engravers MT", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListView3.FullRowSelect = True
         Me.ListView3.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
+        Me.ListView3.HideSelection = False
         Me.ListView3.ImeMode = System.Windows.Forms.ImeMode.AlphaFull
-        Me.ListView3.Location = New System.Drawing.Point(480, 3)
+        Me.ListView3.Location = New System.Drawing.Point(640, 4)
+        Me.ListView3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView3.Name = "ListView3"
         Me.ListView3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ListView3.Size = New System.Drawing.Size(517, 489)
+        Me.ListView3.Size = New System.Drawing.Size(689, 602)
         Me.ListView3.TabIndex = 94
         Me.ListView3.UseCompatibleStateImageBehavior = False
         Me.ListView3.UseWaitCursor = True
@@ -192,36 +204,39 @@ Partial Class FormFornecedor
         'TelefoneTextBox
         '
         Me.TelefoneTextBox.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TelefoneTextBox.Location = New System.Drawing.Point(170, 352)
+        Me.TelefoneTextBox.Location = New System.Drawing.Point(227, 433)
+        Me.TelefoneTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TelefoneTextBox.Mask = "(999) 0000-0000 / (999) 00000-0000"
         Me.TelefoneTextBox.Name = "TelefoneTextBox"
-        Me.TelefoneTextBox.Size = New System.Drawing.Size(304, 26)
+        Me.TelefoneTextBox.Size = New System.Drawing.Size(404, 31)
         Me.TelefoneTextBox.TabIndex = 4
         '
         'EmailTextBox
         '
         Me.EmailTextBox.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.EmailTextBox.Location = New System.Drawing.Point(102, 278)
+        Me.EmailTextBox.Location = New System.Drawing.Point(136, 342)
+        Me.EmailTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.EmailTextBox.Multiline = True
         Me.EmailTextBox.Name = "EmailTextBox"
-        Me.EmailTextBox.Size = New System.Drawing.Size(372, 26)
+        Me.EmailTextBox.Size = New System.Drawing.Size(495, 31)
         Me.EmailTextBox.TabIndex = 3
         '
         'Cod_FornecedorTextBox
         '
         Me.Cod_FornecedorTextBox.Font = New System.Drawing.Font("Engravers MT", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Cod_FornecedorTextBox.Location = New System.Drawing.Point(243, 86)
+        Me.Cod_FornecedorTextBox.Location = New System.Drawing.Point(324, 106)
+        Me.Cod_FornecedorTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Cod_FornecedorTextBox.Name = "Cod_FornecedorTextBox"
-        Me.Cod_FornecedorTextBox.Size = New System.Drawing.Size(231, 26)
+        Me.Cod_FornecedorTextBox.Size = New System.Drawing.Size(307, 31)
         Me.Cod_FornecedorTextBox.TabIndex = 1
         '
         'FormFornecedor
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1009, 504)
+        Me.ClientSize = New System.Drawing.Size(1345, 620)
         Me.Controls.Add(Label1)
         Me.Controls.Add(Me.Cod_FornecedorTextBox)
         Me.Controls.Add(Me.EmailTextBox)
@@ -237,6 +252,7 @@ Partial Class FormFornecedor
         Me.Controls.Add(EmailLabel)
         Me.Controls.Add(TelefoneLabel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FormFornecedor"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormFornecedor"

@@ -119,25 +119,25 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 24</value>
+    <value>287, 28</value>
   </data>
   <data name="ToolStripMenuItem1.Text" xml:space="preserve">
     <value>&amp;Fornecedor</value>
   </data>
   <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 6</value>
+    <value>284, 6</value>
   </data>
   <data name="CadastroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 24</value>
+    <value>287, 28</value>
   </data>
   <data name="CadastroToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Produto</value>
   </data>
   <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 6</value>
+    <value>284, 6</value>
   </data>
   <data name="VendaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 24</value>
+    <value>287, 28</value>
   </data>
   <data name="VendaToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Estoque</value>
@@ -146,7 +146,7 @@
     <value>Engravers MT, 12pt, style=Bold</value>
   </data>
   <data name="EstoqueToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 23</value>
+    <value>178, 28</value>
   </data>
   <data name="EstoqueToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Cadastro</value>
@@ -155,7 +155,7 @@
     <value>Engravers MT, 12pt, style=Bold</value>
   </data>
   <data name="CaixaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 23</value>
+    <value>121, 28</value>
   </data>
   <data name="CaixaToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Venda</value>
@@ -164,7 +164,7 @@
     <value>Engravers MT, 12pt, style=Bold</value>
   </data>
   <data name="SairToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>93, 28</value>
   </data>
   <data name="SairToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Sair</value>
@@ -179,19 +179,19 @@
     <value>Engravers MT, 9pt, style=Bold</value>
   </data>
   <data name="ToolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 6</value>
+    <value>301, 6</value>
   </data>
   <data name="CalculadoraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>304, 28</value>
   </data>
   <data name="CalculadoraToolStripMenuItem.Text" xml:space="preserve">
     <value>Calculadora</value>
   </data>
   <data name="ToolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 6</value>
+    <value>301, 6</value>
   </data>
   <data name="NotepadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 24</value>
+    <value>304, 28</value>
   </data>
   <data name="NotepadToolStripMenuItem.Text" xml:space="preserve">
     <value>Notepad</value>
@@ -200,7 +200,7 @@
     <value>Engravers MT, 12pt, style=Bold</value>
   </data>
   <data name="UtilitariosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 23</value>
+    <value>213, 28</value>
   </data>
   <data name="UtilitariosToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Utilitarios</value>
@@ -209,7 +209,7 @@
     <value>0, 0</value>
   </data>
   <data name="MenuStripiniciar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 27</value>
+    <value>1032, 32</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MenuStripiniciar.TabIndex" type="System.Int32, mscorlib">
@@ -255,23 +255,26 @@
     <value>0, 0</value>
   </data>
   <data name="ToolStripProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 16</value>
+    <value>133, 18</value>
   </data>
   <data name="statussystema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 17</value>
+    <value>12, 20</value>
   </data>
   <data name="statussystema.Text" xml:space="preserve">
     <value>'</value>
   </data>
   <data name="StatusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 512</value>
+    <value>0, 631</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StatusStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>19, 0, 1, 0</value>
+  </data>
   <data name="StatusStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="StatusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 22</value>
+    <value>1032, 26</value>
   </data>
   <data name="StatusStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -301,13 +304,13 @@
     <value>25</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>774, 534</value>
+    <value>1032, 657</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -384,6 +387,9 @@
         AD//gAD//+AD///wD///8B////Af///wD///8A////AP///gD///wAf//8AD///AA///wAP//8AD///A
         A///wAP//8AH///gB///8A////gf//////8=
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

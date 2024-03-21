@@ -22,3 +22,18 @@ F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\bin\Debug\Si
 F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.exe.manifest
 F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.application
 F:\Projetos Visual Studio\Sistema de Loja\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.vbprojResolveAssemblyReference.cache
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.vbproj.AssemblyReference.cache
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.fminiciar.resources
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormCaixa.resources
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormCaixaPagamento.resources
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormEstoque.resources
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormFornecedor.resources
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.FormProduto.resources
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.Resources.resources
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema_Loja.fminiciar.pt-BR.resources
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.vbproj.GenerateResource.cache
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.vbproj.CoreCompileInputs.cache
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\pt-BR\Sistema Loja.resources.dll
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.exe
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.xml
+C:\Users\Rykrdo\Documents\MeusProjetos\Sistema_Frente_De_Caixa_Local\Sistema Loja\Sistema Loja\obj\Debug\Sistema Loja.pdb

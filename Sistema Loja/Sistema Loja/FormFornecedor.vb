@@ -16,7 +16,7 @@ Public Class FormFornecedor
         myConnction.Open()
         Dim myCommand As New OleDbCommand("SELECT * FROM FORNECEDORES ", myConnction)
         Dim myReader As OleDbDataReader = myCommand.ExecuteReader
-        'Limpar Intem Listvwiew
+        'limpar intem Listvwiew
         ListView3.Items.Clear()
         While myReader.Read
             Dim newlistViewItem As New ListViewItem
@@ -33,9 +33,8 @@ Public Class FormFornecedor
         myConnction.Close()
     End Sub
     Sub Carregar_Busca_Tabela_Fornecedor()
-        'Linpar ListView
+        'linpar listView
         ListView3.Items.Clear()
-        'Buscar
         Dim myConnction As New OleDbConnection(myConnstring)
         myConnction.Open()
         Dim myCommand As New OleDbCommand("SELECT * FROM FORNECEDORES WHERE Cod_Fornecedor LIKE @Cod_Fornecedor", myConnction)
@@ -128,20 +127,18 @@ Public Class FormFornecedor
     End Sub
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If Cod_FornecedorTextBox.Text <> "" Then
-            'selecional o imtem a ser deletado
-            'From Data
             Dim myConnction As New OleDbConnection(myConnstring)
             myConnction.Open()
             Dim myCommand As New OleDbCommand("DELETE FROM PRODUTOS WHERE Cod_Produto = @Cod_Produto", myConnction)
             myCommand.Parameters.AddWithValue("@Cod_Produto", Cod_FornecedorTextBox.Text)
             myCommand.ExecuteNonQuery()
             myConnction.Close()
-            'From Remove View
             MessageBox.Show("Intem Excluido Com Sucesso")
-            Carregar_Tabela_Fornecedor_Listview() '
+            Carregar_Tabela_Fornecedor_Listview()
         Else
             MessageBox.Show("Selecione Um Codigo A ser Deletado")
             Cod_FornecedorTextBox.Focus()
         End If
     End Sub
+
 End Class
