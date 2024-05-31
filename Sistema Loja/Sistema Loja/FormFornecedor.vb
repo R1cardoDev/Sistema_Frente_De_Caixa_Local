@@ -3,7 +3,7 @@ Imports System.Data.OleDb
 Public Class FormFornecedor
     Private Sub ButtonSair_Click(sender As Object, e As EventArgs) Handles ButtonSair.Click
         Me.ResetText()
-        Button1.Text = "Incerir / Novo"
+        Button1.Text = "Inserir / Novo"
         Button2.Text = "Editar"
         Button2.Enabled = True
         Button3.Enabled = True
@@ -85,7 +85,7 @@ Public Class FormFornecedor
             Carregar_Tabela_Fornecedor_Listview()
         Else
             Incerir_Registro_Tabela_Fornecedor()
-            Button1.Text = "Incerir / Novo"
+            Button1.Text = "Inserir / Novo"
             Button2.Enabled = True
             Button3.Enabled = True
             Cod_FornecedorTextBox.Enabled = True

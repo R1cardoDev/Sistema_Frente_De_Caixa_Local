@@ -189,7 +189,7 @@ Partial Class FormProduto
         Me.ButtonSair.Name = "ButtonSair"
         Me.ButtonSair.Size = New System.Drawing.Size(100, 28)
         Me.ButtonSair.TabIndex = 13
-        Me.ButtonSair.Text = "Sai&r"
+        Me.ButtonSair.Text = "Sair"
         Me.ButtonSair.UseVisualStyleBackColor = True
         '
         'GroupBox1

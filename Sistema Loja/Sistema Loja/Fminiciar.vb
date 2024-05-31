@@ -43,7 +43,7 @@
 
     End Sub
     Private Sub CaixaToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles CaixaToolStripMenuItem.Click
-        'aormcaixa
+        'form caixa
         FormCaixa.MdiParent = Me
         FormCaixa.Show()
         FormCaixa.FormCaixa_Load()

@@ -130,7 +130,7 @@ Public Class FormCaixa
                         ListView_Adicionar()  'chamado sub listview
                         If Est_Quan < 3 Then MessageBox.Show("Imtem Em Falta No Estoque")
                     Else
-                        TextBoxNome.Text = "Intem Não Emcontrado"
+                        TextBoxNome.Text = "Intem Não Encontrado"
                         TextBoxCod_Barra.Text = ""
                     End If
                 End If

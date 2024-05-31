@@ -153,7 +153,7 @@ Partial Class FormCaixa
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(413, 28)
         Me.Label6.TabIndex = 96
-        Me.Label6.Text = "quantidade de imtem"
+        Me.Label6.Text = "quantidade de itens"
         '
         'TextBoxQuatidade_intem
         '
@@ -250,7 +250,7 @@ Partial Class FormCaixa
         Me.GroupBox8.Size = New System.Drawing.Size(735, 106)
         Me.GroupBox8.TabIndex = 85
         Me.GroupBox8.TabStop = False
-        Me.GroupBox8.Text = "Fuçoes"
+        Me.GroupBox8.Text = "Funçoes"
         '
         'Label8
         '

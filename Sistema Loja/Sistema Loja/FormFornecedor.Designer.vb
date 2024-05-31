@@ -131,7 +131,7 @@ Partial Class FormFornecedor
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(281, 34)
         Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Incerir / Novo"
+        Me.Button1.Text = "Inserir / Novo"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -153,7 +153,7 @@ Partial Class FormFornecedor
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(281, 34)
         Me.Button3.TabIndex = 7
-        Me.Button3.Text = "Excruir"
+        Me.Button3.Text = "Excluir"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'ListView3
